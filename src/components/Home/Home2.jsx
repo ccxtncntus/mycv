@@ -11,21 +11,25 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               My <span className="purple">Resume </span>
             </h1>
+
             <p className="home-about-body">
-              <h4 className="purple"> Học vấn </h4>
+              <span style={{ fontSize: "1.5rem" }} className="purple">
+                {" "}
+                Học vấn{" "}
+              </span>
               <br />
               <span className="purple">Lập trình web Cao đẳng FPT</span> 2022 -
               2024 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Optio quo repudiandae.
               <br />
-              <hr />
+              <br />
               <span className="purple">
                 Trung học phổ thông Phan Bội Châu
               </span>{" "}
               2022 - 2024 Lorem ipsum dolor sit amet, consectetur adipisicing
               elit. Optio quo repudiandae.
               <br />
-              <hr />
+              <br />
               <span className="purple">Lập trình web Cao đẳng FPT</span> 2022 -
               2024 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Optio quo repudiandae.

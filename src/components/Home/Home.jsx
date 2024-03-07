@@ -6,7 +6,6 @@ import Home2 from "./Home2";
 import Type from "./Type";
 
 function Home() {
-  document.title = "tu's cv";
   return (
     <section>
       <Container fluid className="home-section" id="home">

@@ -27,71 +27,70 @@ function ResumeNew() {
           style={{ justifyContent: "center", position: "relative" }}
           className="mt-4"
         >
-          <div class="col-md-3"></div>
-          <div class="col-md-3">
-            <label for="exampleFormControlSelect2">
+          <div className="col-md-3"></div>
+          <div className="col-md-3">
+            <label htmlFor="exampleFormControlSelect2">
               <span className="purple">Tên</span> của bạn
             </label>
             <input
               type="text"
-              class="form-control mt-2"
+              className="form-control mt-2"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
               placeholder="Enter name"
             />
           </div>
-          <div class="col-md-3">
-            <label for="exampleFormControlSelect2">
-              {" "}
+          <div className="col-md-3">
+            <label htmlFor="exampleFormControlSelect2">
               <span className="purple">Email</span> của bạn
             </label>
             <input
               type="text"
-              class="form-control mt-2"
+              className="form-control mt-2"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
               placeholder="Enter email"
             />
           </div>
-          <div class="col-md-3"></div>
-          <div class="form-group"></div>
+          <div className="col-md-3"></div>
+          <div className="form-group"></div>
         </Row>
         <Row
           style={{ justifyContent: "center", position: "relative" }}
           className="mt-4"
         >
-          <div class="col-md-3"></div>
-          <div class="col-md-6">
-            <label for="exampleFormControlSelect2">Thông tin</label>
+          <div className="col-md-3"></div>
+          <div className="col-md-6">
+            <label htmlFor="exampleFormControlSelect2">Thông tin</label>
             <input
               type="text"
-              class="form-control mt-2"
+              className="form-control mt-2"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
               placeholder="Enter subject"
             />
           </div>
-          <div class="col-md-3"></div>
-          <div class="form-group"></div>
+          <div className="col-md-3"></div>
+          <div className="form-group"></div>
         </Row>
         <Row
           style={{ justifyContent: "center", position: "relative" }}
           className="mt-4"
         >
-          <div class="col-md-3"></div>
-          <div class="col-md-6">
-            <label for="exampleFormControlSelect2">Lời nhắn</label>
+          <div className="col-md-3"></div>
+          <div className="col-md-6">
+            <label htmlFor="exampleFormControlSelect2">Lời nhắn</label>
             <textarea
               rows="3"
               type="text"
-              class="form-control mt-2"
+              className="form-control mt-2"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
               placeholder="Tin nhắn"
             />
           </div>
-          <div class="col-md-3"></div>
-          <div class="form-group"></div>
+          <div className="col-md-3"></div>
+          <div className="form-group"></div>
         </Row>
         <div className="mt-4">
           <Button>Submit</Button>
